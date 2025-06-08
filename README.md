@@ -22,7 +22,12 @@ Una aplicación de escritorio para la generación de cartas de control univariad
 * **Generación de Cartas de Control (Fase I):** Crea las cartas de control de promedio ($\bar{X}$) y rango (R) a partir de un conjunto de datos históricos. Señala visualmente los puntos que exceden los límites de control.
 * **Depuración de Cartas:** Ofrece la opción de eliminar subgrupos afectados por causas asignables y recalcular los límites de control para establecer un estado de control estadístico.
 * **Cálculo de Índices de Capacidad:** Calcula los índices **Cp** (capacidad del proceso a largo plazo) y **Cpk** (desplazamiento del proceso respecto al centro de las especificaciones) utilizando los límites de diseño proporcionados.
+
+![Imagen de prueba de funcionamiento de Fase I](analisis-univariado/prueba-fase1.png)
+
 * **Monitoreo del Proceso (Fase II):** Utiliza los parámetros depurados (media y desviación estándar) para generar cartas de control y monitorear nuevos datos del proceso en tiempo real.
+
+![Imagen de prueba de funcionamiento de Fase II](analisis-univariado/prueba-fase2.png)
 
 #### Tecnologías Utilizadas
 
@@ -78,6 +83,8 @@ Una herramienta de consola que calcula la probabilidad de aceptación ($P_a$) de
 
 * Calcula la probabilidad de encontrar un número específico de ítems defectuosos en la muestra.
 * Suma estas probabilidades para obtener la probabilidad acumulada de aceptación ($P_a$) del lote completo.
+
+![Imagen de prueba de funcionamiento de muestreo por aceptación](muestreo-aceptacion/prueba-muestreo.png)
 
 #### Tecnologías Utilizadas
 
