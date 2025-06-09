@@ -1,9 +1,17 @@
 # Quality Control CEP (Control Estadístico de Procesos)
 
 Este repositorio contiene un conjunto de herramientas desarrolladas en Python para el análisis y la aplicación de técnicas de Control Estadístico de Procesos (CEP). El objetivo es proporcionar soluciones interactivas para facilitar la creación, análisis y evaluación de sistemas de control de calidad.
-
 ---
 
+## Autores y créditos
+
+* **Autores:** Alberto Mercado Piñeres y Juan Quintero González
+* **Profesor:** PhD. Roberto Herrera Acosta
+* **Institución:** Universidad del Atlántico
+* **Curso:** Control de Calidad
+* **Fecha:** Junio de 2025
+
+---
 ## Subproyectos
 
 Este proyecto se divide en los siguientes componentes:
@@ -17,26 +25,26 @@ Este proyecto se divide en los siguientes componentes:
 
 Una aplicación de escritorio para la generación de cartas de control univariadas de Shewhart (promedio y rango). La herramienta permite visualizar datos históricos, identificar causas especiales, depurar el proceso (Fase I) y establecer límites de control para el monitoreo futuro (Fase II).
 
-#### Características Principales
+#### Características principales
 
-* **Generación de Cartas de Control (Fase I):** Crea las cartas de control de promedio ($\bar{X}$) y rango (R) a partir de un conjunto de datos históricos. Señala visualmente los puntos que exceden los límites de control.
-* **Depuración de Cartas:** Ofrece la opción de eliminar subgrupos afectados por causas asignables y recalcular los límites de control para establecer un estado de control estadístico.
+* **Generación de cartas de control (Fase I):** Crea las cartas de control de promedio ($\bar{X}$) y rango (R) a partir de un conjunto de datos históricos. Señala visualmente los puntos que exceden los límites de control.
+* **Depuración de cartas:** Ofrece la opción de eliminar subgrupos afectados por causas asignables y recalcular los límites de control para establecer un estado de control estadístico.
 * **Cálculo de Índices de Capacidad:** Calcula los índices **Cp** (capacidad del proceso a largo plazo) y **Cpk** (desplazamiento del proceso respecto al centro de las especificaciones) utilizando los límites de diseño proporcionados.
 
 ![Imagen de prueba de funcionamiento de Fase I](analisis-univariado/prueba-fase1.png)
 
-* **Monitoreo del Proceso (Fase II):** Utiliza los parámetros depurados (media y desviación estándar) para generar cartas de control y monitorear nuevos datos del proceso en tiempo real.
+* **Monitoreo del proceso (Fase II):** Utiliza los parámetros depurados (media y desviación estándar) para generar cartas de control y monitorear nuevos datos del proceso en tiempo real.
 
 ![Imagen de prueba de funcionamiento de Fase II](analisis-univariado/prueba-fase2.png)
 
-#### Tecnologías Utilizadas
+#### Tecnologías utilizadas
 
 * **Python**
 * **Tkinter:** para la interfaz gráfica de usuario (GUI).
 * **Matplotlib:** para la generación de los gráficos de control.
 * **Numpy:** para los cálculos numéricos y estadísticos.
 
-#### Instalación y Uso
+#### Instalación y uso
 
 Para utilizar esta herramienta, sigue estos pasos:
 
@@ -79,18 +87,18 @@ Para utilizar esta herramienta, sigue estos pasos:
 
 Una herramienta de consola que calcula la probabilidad de aceptación ($P_a$) de un lote de productos. Utiliza los parámetros de un plan de muestreo (tamaño del lote, tamaño de la muestra y número de aceptación) para determinar la probabilidad de que un lote con una determinada proporción de defectos sea aceptado.
 
-#### Características Principales
+#### Características principales
 
 * Calcula la probabilidad de encontrar un número específico de ítems defectuosos en la muestra.
 * Suma estas probabilidades para obtener la probabilidad acumulada de aceptación ($P_a$) del lote completo.
 
 ![Imagen de prueba de funcionamiento de muestreo por aceptación](muestreo-aceptacion/prueba-muestreo.png)
 
-#### Tecnologías Utilizadas
+#### Tecnologías utilizadas
 
 * **Python**
 
-#### Instalación y Uso
+#### Instalación y uso
 
 La herramienta funciona directamente desde la consola:
 
