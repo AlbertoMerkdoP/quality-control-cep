@@ -6,7 +6,7 @@ Este repositorio contiene un conjunto de herramientas desarrolladas en Python pa
 ## Autores y créditos
 
 * **Autores:** Alberto Mercado Piñeres y Juan Quintero González
-* **Profesor:** PhD. Roberto Herrera Acosta
+* **Profesor:** PhD. Ing. Roberto Herrera Acosta
 * **Institución:** Universidad del Atlántico
 * **Curso:** Control de Calidad
 * **Fecha:** Junio de 2025
